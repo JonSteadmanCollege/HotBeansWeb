@@ -1,0 +1,234 @@
+<html>
+<head>
+<link rel="icon" type="image/x-icon" href="Assets/TheLogo.png">
+<title>Hot Beans Web!</title>
+</head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href='https://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet'> 
+
+
+<style>
+body {
+    font-family: 'Ubuntu';font-size: 22px;
+}
+ /* Add a black background color to the top navigation */
+.topnav {
+  background-color: #E11444;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Add an active class to highlight the current page */
+.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+  display: none;
+}
+
+/* Dropdown container - needed to position the dropdown content */
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+/* Style the dropdown button to fit inside the topnav */
+.dropdown .dropbtn {
+  font-size: 17px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+/* Style the dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Style the links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* Add a dark background on topnav links and the dropdown button on hover */
+.topnav a:hover, .dropdown:hover .dropbtn {
+  background-color: #E11444;
+  color: white;
+}
+
+/* Add a grey background to dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #E11444;
+  color: black;
+}
+
+/* Show the dropdown menu when the user moves the mouse over the dropdown button */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child), .dropdown .dropbtn {
+    display: none;
+  }
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .topnav.responsive .dropdown {float: none;}
+  .topnav.responsive .dropdown-content {position: relative;}
+  .topnav.responsive .dropdown .dropbtn {
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+} 
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.button1 {
+  background-color: white;
+  color: black;
+  border: 2px solid Black; /* Green */
+}
+	.inline-block {
+   display: inline-block;
+}
+</style>
+</head>
+<body style="background-color:#EF476F;">
+ <div class="topnav" id="myTopnav">
+	   <a href="index.html"><img src="Assets/TheLogo.png" width="70" alt="Girl in a jacket">
+
+  <a href="index.html">Welcome</a>
+	   <div class="dropdown">
+    <button class="dropbtn">About:
+		<i class="fa fa-caret-down"></i>
+      <div class="dropdown-content">
+      <a href="AboutUS.html">About us:</a>
+      <a href="ContactUs.html">Contact us:</a>
+      <a href="WhereWeAre.html.html">Where we are?</a>
+		  </div>
+    </button>
+		   </div>
+		      <div class="dropdown">
+    <button class="dropbtn">Join your new friends:
+      <i class="fa fa-caret-down"></i>
+      <div class="dropdown-content">
+      <a href="JoinUS.html">Join us now:</a>
+      <a href="PaigeGirly.html">Paige Girly:</a>
+      <a href="JessicaJones.html">Jessica Jones:</a>
+      <a href="LilyAston.html">Lily Aston:</a>
+      <a href="SamSmith.html">Sam Smith:</a>
+      <a href="JessyHips.html">Jessy Hips:</a>
+
+		  </div>
+    </button>
+		  </div>
+	   <a href="LearnWebDevelopment.html">Learn Website Development</a>
+	   <a href="MakeMeAWebsite.html">Make me a website</a>
+
+
+
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+</div> 
+	
+
+  </div>
+  </div> 
+
+
+</div>
+
+<h1 style="text-align:center"><u><b>Apply Now!</b></u></h1>
+</body>
+<h2 style="text-align:center">Qualifications for this job:</h2>
+<p style="text-align:center">BTECH Level 3 or A level in ICT. We also accept any other qualifications. </p>
+<p style="text-align:center">Would be better if you have got a university degree in any ICT course. For example computer science.</p>
+<p style="text-align:center">You must have one year experience at working in website development.</p>
+<h2 style="text-align:center">Skills needed:</h2>
+<p style="text-align:center">You must prove that you got the skills by showing projects you have done at home or education.</p>
+<p style="text-align:center">You must be very good at problem solving.</p>
+<p style="text-align:center">We would like you to know how to fix computers such as fixing a kernel panic or any hardware failure replacements such as RAM. You will be trainned.</p>
+<p style="text-align:center">You need to know HTML,CSS, JavaScript, Python and Bootstrap.</p>
+<p style="text-align:center">You must know how to use GitHub.</p>
+<p style="text-align:center">We use Linux Mint. So you must know how to use the comandline in Linux.</p>
+
+<h2 style="text-align:center">Discounts:</h2>
+<p style="text-align:center">Get 50% discount at MCDonalds on working days.</p>
+<p style="text-align:center">Get free Xbox Live Membership per month. While working with us.</p>
+<p style="text-align:center">Get 90% off First Bus transport. </p>
+<p style="text-align:center">Get 60% off Zorin OS premium (Linux distrobution). </p>
+<p style="text-align:center">Get 90% off any storage device from Western Digitial. </p>
+<h2 style="text-align:center">What is your job?</h2>
+<p style="text-align:center">You will be making websites for different purposes. You will be working with people and expected to make friends with them. You must be very social as we dont want anyone boring working at the company but make sure that you still do some work. You will be planning, coding and design the websites for customers. You will be given a break as its important. If one system goes down for any reason. You must help fix the issue and replacing any hardware if needed. You must install Linux as its the system we all like using here. But your main job is to make websites.</p>
+<h2 style="text-align:center">Exam information:</h2>
+<p style="text-align:center">You will be given one exam. This exam is used to see if you are truly ready for the job and dont need training with us. If you fail then dont worry you allready accepted you. You just will be taught by experts to learn website development and guess what you still get paid :). We need for website developers. So we are happy to pay for you to get trainned. </p>
+<p style="text-align:center">The pay will be £40 per hour and you will work for three to four days a week. </p>
+<p style="text-align:center"><a href="ApplyNowForm.html"><button class="button button1">Apply Now!</button></a></p>
+<h2 style="text-align:center">Our workstation with Linux Mint:</h2>
+
+<p style="text-align:center"><img src="Assets/h240_mini1.jpg"></img></p>
+
+
+
+
+
+
+
+
+</html>
